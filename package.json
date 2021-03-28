@@ -1,0 +1,27 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "TypeScript로 Block Chain 만들기 실습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHO-cmd/typechain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CHO-cmd/typechain/issues"
+  },
+  "homepage": "https://github.com/CHO-cmd/typechain#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.2.3"
+  }
+}
